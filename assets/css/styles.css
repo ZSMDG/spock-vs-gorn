@@ -47,6 +47,17 @@ h2 {
     margin: 20px 0;
 }
 
+
+#player-score {
+    color: green;
+    font-weight: bold;
+}
+
+#computer-score {
+    color: red;
+    font-weight: bold;
+}
+
 /* Footer */
 footer {
     margin-top: auto;
