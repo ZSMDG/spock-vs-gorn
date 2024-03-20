@@ -1,0 +1,33 @@
+/* Global style */
+
+body {
+    font-family: "orbitron", sans-serif;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+/* Heading */
+
+h1 {
+    font-size: 400%;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 200%;
+    margin-top: 1%;
+}
+
+/* Game layout */
+
+.game-area {
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
