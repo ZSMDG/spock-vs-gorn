@@ -12,11 +12,43 @@
     <title>Spock vs Gorn</title>
 </head>
 <body>
-    <h1 class="heading"></h1>
+
+    <header>
+        <h1 class="heading">
+            <i class="fa-regular fa-hand-spock" id="heading-spock"></i>
+            Spock vs Gorn!
+            <i class="fa-regular fa-hand-lizard" id="heading-gorn"></i>
+        </h1>
+        <h2>Rock, Paper, Scissors, Lizard, Spock</h2>
+    </header>
+
     <div class="game-area">
-        
+        <div>
+            <button aria-label="Rock" data-choice="0" class="control">
+                <i class="fa-regular fa-hand-back-fist"></i>
+            </button>
+            <button aria-label="Paper" data-choice="1" class="control">
+                <i class="fa-regular fa-hand"></i>
+            </button>
+            <button aria-label="Scissors" data-choice="2" class="control">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </button>
+            <button aria-label="Lizard" data-choice="3" class="control">
+                <i class="fa-regular fa-hand-lizard"></i>
+            </button>
+            <button aria-label="Spock" data-choice="4" class="control" >
+                <i class="fa-regular fa-hand-spock"></i>
+            </button>
+        </div>
+        <button data-type="submit" class="shoot-button">Shoot!</button>
     </div>
-    <footer></footer>
+
+    <footer>
+        <a href="https://adams.osu.edu/sites/adams/files/imce/4-H/STEM_Camp/Rock%20Paper%20Scissors%20Lizard%20Spock.pdf"
+        target="_blank"
+        rel="noopener"
+        aria-label="View the rules for the game (opens in new tab)">Rules</a>
+    </footer>
 
     <scripst src="assets/js/script.js"></script>
 </body>
