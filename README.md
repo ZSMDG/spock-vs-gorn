@@ -44,3 +44,15 @@ Learn the rules of "Rock, Paper, Scissors, Lizard, Spock" and find out who the s
 
 - Javascript
   - No errors were returned when passing the code through JSHINT
+
+## Unfixed Issues
+
+The site is not very resposive I've tried alot of different CSS styling to get it to be responsive but couldn't
+
+## Deployment
+
+- The site was deployed to GitHub pages.
+- The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
