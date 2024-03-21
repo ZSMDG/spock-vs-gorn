@@ -37,7 +37,7 @@ h2 {
 .control {
     font-size: 800%;
     border-radius: 20px;
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
 .control:hover {
@@ -46,6 +46,14 @@ h2 {
 
 #diplay-area {
     font-size: 300%;
+}
+
+.greenText {
+    color: lime;
+}
+
+.redText {
+    color: firebrick;
 }
 
 .score-area {
