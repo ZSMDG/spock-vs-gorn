@@ -47,9 +47,29 @@ function playGame(playerChoice) {
     switch (result) {
         case "You Win!":
             resultDisplay.classList.add("greenText");
+            incrementPlayerScore()
             break;
         case "You Lose!":
+            incrementComputerScore()
             resultDisplay.classList.add("redText");
             break;
     }
+}
+// Code from "love maths"
+/**
+ * Increment player score by 1
+ */
+function incrementPlayerScore() {
+
+    let oldScore = parseInt(document.getElementById("player-score").innerText);
+    document.getElementById("player-score").innerText = ++oldScore;
+}
+
+/**
+ * Increments computer score by 1
+ */
+function incrementComputerScore() {
+
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScore;
 }

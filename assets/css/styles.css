@@ -49,7 +49,7 @@ h2 {
 }
 
 .greenText {
-    color: lime;
+    color: green;
 }
 
 .redText {
@@ -68,7 +68,7 @@ h2 {
 }
 
 #computer-score {
-    color: red;
+    color: firebrick;
     font-weight: bold;
 }
 
