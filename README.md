@@ -56,3 +56,10 @@ The site is not very resposive I've tried alot of different CSS styling to get i
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://zsmdg.github.io/spock-vs-gorn/
+
+## Media
+
+- Code was taken from previous projects: love running, love maths.
+- I was very lost on this project so I followed this tutorial on youtube: https://www.youtube.com/watch?v=3uKdQx-SZ5A
