@@ -3,6 +3,9 @@ const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
 
+// Max score for the computer to win
+const maxScore = 5;
+
 /**
  * Makes the computer choose a number between 0 and 4 
  * compares the choice the player makes
@@ -54,6 +57,20 @@ function playGame(playerChoice) {
             resultDisplay.classList.add("redText");
             break;
     }
+
+    // Checks if computer's score raches maximum score if true displays alert then resets game
+    if (parseInt(document.getElementById("computer-score").innerText) === maxScore) {
+        alert(`You Lose! Your score was: ${document.getElementById("player-score").innerText}`);
+        resetGame();
+    }
+}
+
+/**
+ * Reset the game by setting both player and computer score to 0
+ */
+function resetGame() {
+    document.getElementById("player-score").innerText = "0";
+    document.getElementById("computer-score").innerText = "0";
 }
 // Code from "love maths"
 /**
