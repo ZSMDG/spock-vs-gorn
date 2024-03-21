@@ -28,7 +28,6 @@ h2 {
 .game-area {
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
     max-height: 450px;
     max-width: 830px;
     margin: 0 auto;
@@ -45,9 +44,14 @@ h2 {
     background-color: lightblue;
 }
 
+#diplay-area {
+    font-size: 300%;
+}
+
 .score-area {
     margin-top: 20px;
     width: 100%;
+    font-size: 150%;
 }
 
 #player-score {
