@@ -45,16 +45,6 @@ h2 {
     background-color: lightblue;
 }
 
-.shoot-button {
-    font-size: 400%;
-    border-radius: 20px;
-    margin: 20px 0;
-}
-
-.shoot-button:hover {
-    background-color: orange;
-}
-
 .score-area {
     margin-top: 20px;
     width: 100%;

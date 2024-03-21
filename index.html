@@ -23,24 +23,27 @@
 
     <div class="game-area">
         <div>
-            <button aria-label="Rock" data-choice="0" class="control">
+            <button aria-label="Rock" onclick="playGame('rock')" class="control">
                 <i class="fa-regular fa-hand-back-fist"></i>
             </button>
-            <button aria-label="Paper" data-choice="1" class="control">
+            <button aria-label="Paper" onclick="playGame('paper')" class="control">
                 <i class="fa-regular fa-hand"></i>
             </button>
-            <button aria-label="Scissors" data-choice="2" class="control">
+            <button aria-label="Scissors" onclick="playGame('scissors')" class="control">
                 <i class="fa-regular fa-hand-scissors"></i>
             </button>
-            <button aria-label="Lizard" data-choice="3" class="control">
+            <button aria-label="Lizard" onclick="playGame('lizard')" class="control">
                 <i class="fa-regular fa-hand-lizard"></i>
             </button>
-            <button aria-label="Spock" data-choice="4" class="control" >
+            <button aria-label="Spock" onclick="playGame('spock')" class="control" >
                 <i class="fa-regular fa-hand-spock"></i>
             </button>
         </div>
-        <button data-type="submit" class="shoot-button">Shoot!</button>
     </div>
+
+    <div id="playerDisplay">Player:</div>
+    <div id="computerDisplay">Computer:</div>
+    <div id="resultDisplay">It's a tie!</div>
 
     <div class="score-area">
         <p class="scores">Player Score <span id="player-score">0</span></p>
@@ -54,6 +57,6 @@
         aria-label="View the rules for the game (opens in new tab)">Rules</a>
     </footer>
 
-    <scripst src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
