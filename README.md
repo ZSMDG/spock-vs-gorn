@@ -23,3 +23,24 @@ Learn the rules of "Rock, Paper, Scissors, Lizard, Spock" and find out who the s
 ## Footer
 
 - The footer section has a link to an external source on the rules of "Rock, Paper, Scissors, Lizard, Spock"
+
+## Testing
+
+- I tested playing this game in different browsers: Chrome, Firefox.
+- I confirmed the game results are always correct
+- I confirmed that the correct choice is always displayed
+- I confirmed that the score is always updated
+- I confirmed that the game over alert message is displayed at the correct time
+- I confirmed that the link to the rules page works
+- I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+
+## Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official W3C validator
+
+- CSS
+  - No errors were returned when passing through the official W3C CSS validator
+
+- Javascript
+  - No errors were returned when passing the code through JSHINT
